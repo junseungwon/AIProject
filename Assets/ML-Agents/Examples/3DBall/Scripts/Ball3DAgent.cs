@@ -6,6 +6,7 @@ using Random = UnityEngine.Random;
 
 public class Ball3DAgent : Agent
 {
+   
     [Header("Specific to Ball3D")]
     public GameObject ball;
     [Tooltip("Whether to use vector observation. This option should be checked " +
